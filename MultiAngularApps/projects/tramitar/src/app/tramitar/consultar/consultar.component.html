@@ -1,0 +1,16 @@
+<p>Consultar works!</p>
+<div class="row">
+  <div class="col-12">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm.value)">
+      <div class="form-row align-items-center">
+        <div class="col-auto">
+          <label class="sr-only" for="inlineFormInput">CRR</label>
+          <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="CRR Causa">
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-2">Buscar</button>
+        </div>
+      </div>
+    </form>  
+  </div>
+</div>
