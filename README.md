@@ -30,7 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Creación de subaplicaciones
 
-`ng generate application app2 –-routing`
+`ng generate application app2 --routing`
 
 ## Creación de componentes en cada subaplicación
 
